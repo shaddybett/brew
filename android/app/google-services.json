@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "1047512269591",
-    "project_id": "my-brew-f21fa",
-    "storage_bucket": "my-brew-f21fa.firebasestorage.app"
+    "project_number": "76535072130",
+    "project_id": "brew-crew-f98a2",
+    "storage_bucket": "brew-crew-f98a2.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1047512269591:android:dcefc7ff0370aa4bc7ed52",
+        "mobilesdk_app_id": "1:76535072130:android:79121468ebebbc08c93b9b",
         "android_client_info": {
           "package_name": "com.bett.brew_crew"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBTrcASDXbjssSSxfiNHDwvVNnUe_ws0P4"
+          "current_key": "AIzaSyAyYCKA5XtYhm0grva6Wu54KJesfPCEkww"
         }
       ],
       "services": {

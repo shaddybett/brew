@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.brew_crew"
+    namespace = "com.bett.brew_crew"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
