@@ -1,5 +1,5 @@
+import 'package:brew_crew/screens/wrapper.dart';
 import 'package:flutter/material.dart';
-import './wrapper.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return Wrapper();
+    return MaterialApp(
+      home: Wrapper(),
+    );
   }
 }
