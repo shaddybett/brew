@@ -1,9 +1,13 @@
+import 'package:brew_crew/screens/authenticate/authenticate.dart';
+import 'package:brew_crew/screens/authenticate/practice.dart';
+import 'package:brew_crew/screens/home/home.dart';
 import 'package:brew_crew/screens/wrapper.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
