@@ -4,12 +4,12 @@ class AuthServices {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   Future<User?> signInAnon() async {
-    try {
+    try{
       UserCredential result = await _auth.signInAnonymously();
-      User? user = result.user; // Use User? instead of FirebaseUser
+      User? user = result.user;
       return user;
-    } catch (e) {
-      print("Error signing in anonymously: ${e.toString()}");
+    }catch(e){
+      print(e.toString());
       return null;
     }
   }
