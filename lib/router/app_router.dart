@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:logger/web.dart';
-import 'package:grocery_delivery_app/presentation/authentication/phonescreen.dart';
-import 'package:grocery_delivery_app/presentation/authentication/otpscreen.dart';
+import 'package:logger/logger.dart';
+import 'package:grocery_delivery_app/presentation/authentication/phone_screen.dart';
+import 'package:grocery_delivery_app/presentation/authentication/otp_screen.dart';
 import 'package:grocery_delivery_app/presentation/authentication/enter_kyc_screen.dart';
-import 'package:grocery_delivery_app/presentation/authentication/login.dart';
+import 'package:grocery_delivery_app/presentation/authentication/login_screen.dart';
 import 'package:grocery_delivery_app/presentation/home/home_screen.dart';
 import 'package:grocery_delivery_app/presentation/cart/cart_screen.dart';
 import 'package:grocery_delivery_app/presentation/checkout/checkout_screen.dart';

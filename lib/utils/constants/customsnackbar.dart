@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pocketwise/utils/constants/colors.dart';
-import 'package:pocketwise/utils/constants/textutil.dart';
+import 'package:grocery_delivery_app/utils/constants/colors.dart';
+import 'package:grocery_delivery_app/utils/constants/textutil.dart';
 
 class CustomSnackbar extends StatelessWidget {
   final String message;
@@ -48,7 +48,7 @@ void showCustomSnackbar(BuildContext context, String text) {
     builder: (context) => CustomSnackbar(message: text),
   );
 
-  overlay?.insert(overlayEntry);
+  overlay.insert(overlayEntry);
 
   Future.delayed(const Duration(seconds: 4)).then((_) {
     overlayEntry.remove();

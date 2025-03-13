@@ -1,4 +1,4 @@
-name: brew_crew
+name: grocery_delivery_app
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -28,17 +28,17 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  cloud_firestore: ^5.5.1
+  cloud_firestore: ^5.6.5
   connectivity_plus: ^6.1.1
   cupertino_icons: ^1.0.6
   dashed_circular_progress_bar: ^0.0.6
   easy_localization: ^3.0.7
   firebase_app_check: ^0.3.1+7
-  firebase_auth: ^5.3.4
-  firebase_core: ^3.8.1
+  firebase_auth: ^5.5.1
+  firebase_core: ^3.12.1
   firebase_messaging: ^15.1.6
   firebase_ui_firestore: ^1.7.0
-  fl_chart: ^0.69.0
+  fl_chart: ^0.70.2
   flutter:
     sdk: flutter
   flutter_expandable_fab: ^2.3.0
@@ -55,6 +55,7 @@ dependencies:
   sqflite: ^2.0.0+4
   tutorial_coach_mark: ^1.2.12
   video_player: ^2.9.2
+  pin_code_fields: ^8.0.0
 
 dev_dependencies:
   android_notification_icons:
